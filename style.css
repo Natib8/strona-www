@@ -27,8 +27,8 @@ nav a {}
 
 a.menu {
     display: inline-block;
-    width: 25%;
-    padding: 5px 5px;
+    width: 200px;
+    padding: 10px 0px;
     color: white; 
     text-decoration: none; /*brak podkreślenia w url*/
     text-align: center;
@@ -37,14 +37,11 @@ a.menu {
 /* zamiennie do nav a {}; wszystkie elementy a naszego menu*/
 /*hover określa jak ma się zachować dany element*/
 a.menu:hover {
-    background-color: #a842c1;}
-
-a.menu:hover {
-    font-weight: 500;}
-
+    background-color: #a842c1;
+}
 
 article {
-    margin-top: 30px;
+    margin-top: 30px; 
     margin-bottom: 30px;
     }
 
